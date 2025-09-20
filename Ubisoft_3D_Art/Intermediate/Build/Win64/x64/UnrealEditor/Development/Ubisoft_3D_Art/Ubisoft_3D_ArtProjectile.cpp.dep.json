@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\p0bis\\onedrive\\documents\\github\\ubisoft_toronto_next_2025-2026_3dart\\ubisoft_3d_art\\source\\ubisoft_3d_art\\ubisoft_3d_artprojectile.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\p0bis\\onedrive\\documents\\github\\ubisoft_toronto_next_2025-2026_3dart\\ubisoft_3d_art\\intermediate\\build\\win64\\x64\\ubisoft_3d_arteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\p0bis\\onedrive\\documents\\github\\ubisoft_toronto_next_2025-2026_3dart\\ubisoft_3d_art\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ubisoft_3d_art\\definitions.ubisoft_3d_art.h",
+            "c:\\users\\p0bis\\onedrive\\documents\\github\\ubisoft_toronto_next_2025-2026_3dart\\ubisoft_3d_art\\source\\ubisoft_3d_art\\ubisoft_3d_artprojectile.h",
+            "c:\\users\\p0bis\\onedrive\\documents\\github\\ubisoft_toronto_next_2025-2026_3dart\\ubisoft_3d_art\\intermediate\\build\\win64\\unrealeditor\\inc\\ubisoft_3d_art\\uht\\ubisoft_3d_artprojectile.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\projectilemovementcomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\movementcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\projectilemovementcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Ubisoft_3D_Art",
+			"Path": "..\\Source\\Ubisoft_3D_Art.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Ubisoft_3D_ArtEditor",
+			"Path": "..\\Source\\Ubisoft_3D_ArtEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\p0bis\\OneDrive\\Documents\\GitHub\\Ubisoft_Toronto_NEXT_2025-2026_3DArt\\Ubisoft_3D_Art\\Source\\Ubisoft_3D_Art\\Ubisoft_3D_Art.Build.cs",
+		"C:\\Users\\p0bis\\OneDrive\\Documents\\GitHub\\Ubisoft_Toronto_NEXT_2025-2026_3DArt\\Ubisoft_3D_Art\\Source\\Ubisoft_3D_Art.Target.cs",
+		"C:\\Users\\p0bis\\OneDrive\\Documents\\GitHub\\Ubisoft_Toronto_NEXT_2025-2026_3DArt\\Ubisoft_3D_Art\\Source\\Ubisoft_3D_ArtEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
