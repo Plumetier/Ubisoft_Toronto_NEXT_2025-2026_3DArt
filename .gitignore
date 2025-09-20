@@ -75,10 +75,6 @@ Plugins/**/Intermediate/*
 DerivedDataCache/*
 
 # GITIGNORE template for Wwise Project
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 .backup*
 .cache*
 *.akd
@@ -86,8 +82,7 @@ DerivedDataCache/*
 *.validationcache
 *.wsettings
 AkWwiseProjectData.asset
-<<<<<<< Updated upstream
-IncrementalSoundBankData.xml
-=======
-IncrementalSoundBankData.xml
->>>>>>> Stashed changes
+
+
+# Blender
+*.blend1
