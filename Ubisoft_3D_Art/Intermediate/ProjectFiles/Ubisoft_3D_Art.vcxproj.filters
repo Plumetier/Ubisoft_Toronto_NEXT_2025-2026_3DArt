@@ -38,38 +38,287 @@
     <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_Art.cpp">
       <Filter>Source\Ubisoft_3D_Art</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_Art.h">
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_Art.h">
       <Filter>Source\Ubisoft_3D_Art</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtCharacter.cpp">
       <Filter>Source\Ubisoft_3D_Art</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtCharacter.h">
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtCharacter.h">
       <Filter>Source\Ubisoft_3D_Art</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtGameMode.cpp">
       <Filter>Source\Ubisoft_3D_Art</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtGameMode.h">
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtGameMode.h">
+      <Filter>Source\Ubisoft_3D_Art</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtPlayerController.cpp">
       <Filter>Source\Ubisoft_3D_Art</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtPickUpComponent.cpp">
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtPlayerController.h">
       <Filter>Source\Ubisoft_3D_Art</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_Combat">
+      <UniqueIdentifier>{88BFC07D-B5D3-3F2C-8B4D-8F886BA53F5A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtPickUpComponent.h">
-      <Filter>Source\Ubisoft_3D_Art</Filter>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtProjectile.cpp">
-      <Filter>Source\Ubisoft_3D_Art</Filter>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtProjectile.h">
-      <Filter>Source\Ubisoft_3D_Art</Filter>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_Combat\AI">
+      <UniqueIdentifier>{A943099F-D13D-35C2-A4A3-D01D2761FC31}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\AI</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtWeaponComponent.cpp">
-      <Filter>Source\Ubisoft_3D_Art</Filter>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\AI</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Ubisoft_3D_ArtWeaponComponent.h">
-      <Filter>Source\Ubisoft_3D_Art</Filter>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\AI</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_Combat\Animation">
+      <UniqueIdentifier>{46ACA9C6-B5BD-379A-BBCF-FA1C8243866F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{024E527D-2065-3F3F-8C70-186CCB3815B8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{08030C22-DA9D-3A32-8D9D-CDDADF87C576}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_Combat\UI">
+      <UniqueIdentifier>{74EBA989-8EE7-3EC0-8A55-C4CDEEB1345B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_Platforming">
+      <UniqueIdentifier>{22363563-30E4-3C2A-A19D-35FCB438AE4F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_Platforming\Animation">
+      <UniqueIdentifier>{CBA882A4-8826-32DF-AD9B-FC7C922F9B72}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_SideScrolling">
+      <UniqueIdentifier>{11FBD746-F1CF-3DEE-A2EC-F5150332A9CA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{75774D8D-A796-35FE-99A4-D2D58AF962AA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{6143719F-4B86-33DB-B34C-9C1103DCE478}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{0D08F84B-97E0-339A-A42B-D87FC16C3C4A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ubisoft_3D_Art\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{C123BC0D-8DCA-3867-81D2-C1BBDBAB0DE4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ubisoft_3D_Art\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\Ubisoft_3D_Art\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

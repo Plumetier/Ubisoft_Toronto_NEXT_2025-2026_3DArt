@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ubisoft_3D_ArtModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+362ae73995688c8155f2add98df641fdd0bf3bd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db820ef077d8315116151ca70efaca572ff598f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ubisoft_3D_ArtModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ubisoft_3D_ArtModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

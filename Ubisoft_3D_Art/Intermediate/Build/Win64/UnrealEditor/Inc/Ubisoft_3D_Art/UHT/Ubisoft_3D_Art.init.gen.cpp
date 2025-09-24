@@ -7,27 +7,27 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeUbisoft_3D_Art_init() {}
-	UBISOFT_3D_ART_API UFunction* Z_Construct_UDelegateFunction_Ubisoft_3D_Art_OnPickUp__DelegateSignature();
+	UBISOFT_3D_ART_API UFunction* Z_Construct_UDelegateFunction_Ubisoft_3D_Art_OnEnemyDied__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_Ubisoft_3D_Art;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_Ubisoft_3D_Art()
 	{
 		if (!Z_Registration_Info_UPackage__Script_Ubisoft_3D_Art.OuterSingleton)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
-				(UObject* (*)())Z_Construct_UDelegateFunction_Ubisoft_3D_Art_OnPickUp__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_Ubisoft_3D_Art_OnEnemyDied__DelegateSignature,
 			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Ubisoft_3D_Art",
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xFDF6A018,
-				0x924209EE,
+				0x3EF3AE72,
+				0x2C3DBE68,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Ubisoft_3D_Art.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Ubisoft_3D_Art.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Ubisoft_3D_Art(Z_Construct_UPackage__Script_Ubisoft_3D_Art, TEXT("/Script/Ubisoft_3D_Art"), Z_Registration_Info_UPackage__Script_Ubisoft_3D_Art, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xFDF6A018, 0x924209EE));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Ubisoft_3D_Art(Z_Construct_UPackage__Script_Ubisoft_3D_Art, TEXT("/Script/Ubisoft_3D_Art"), Z_Registration_Info_UPackage__Script_Ubisoft_3D_Art, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x3EF3AE72, 0x2C3DBE68));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

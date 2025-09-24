@@ -6,12 +6,17 @@
 #include "GameFramework/GameModeBase.h"
 #include "Ubisoft_3D_ArtGameMode.generated.h"
 
-UCLASS(minimalapi)
+/**
+ *  Simple GameMode for a third person game
+ */
+UCLASS(abstract)
 class AUbisoft_3D_ArtGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
 public:
+	
+	/** Constructor */
 	AUbisoft_3D_ArtGameMode();
 };
 

@@ -1,5 +1,4 @@
-/MANIFEST:EMBED
-/MANIFESTINPUT:"..\Build\Windows\Resources\Default-Win64.manifest"
+/MANIFEST:NO
 /NOLOGO
 /DEBUG:FULL
 /errorReport:prompt
@@ -21,9 +20,9 @@
 /ALTERNATENAME:__imp___std_init_once_complete=__imp_InitOnceComplete
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
-/LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\lib\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x64"
+/LIBPATH:"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/lib/x64"
+/LIBPATH:"C:/Program Files (x86)/Windows Kits/10/lib/10.0.22621.0/ucrt/x64"
+/LIBPATH:"C:/Program Files (x86)/Windows Kits/10/lib/10.0.22621.0/um/x64"
 /NODEFAULTLIB:"LIBCMT"
 /NODEFAULTLIB:"LIBCPMT"
 /NODEFAULTLIB:"LIBCMTD"
@@ -36,26 +35,23 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 /NOIMPLIB
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\Ubisoft_3D_ArtEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_Art.init.gen.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_ArtCharacter.gen.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_ArtGameMode.gen.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_ArtPickUpComponent.gen.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_ArtProjectile.gen.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_ArtWeaponComponent.gen.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_Art.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_ArtCharacter.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_ArtGameMode.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_ArtPickUpComponent.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_ArtProjectile.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Ubisoft_3D_ArtWeaponComponent.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\PerModuleInline.gen.cpp.obj"
-"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Intermediate\Build\Win64\x64\UnrealEditor\Development\Ubisoft_3D_Art\Default.rc2.res"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
-"..\Plugins\EnhancedInput\Intermediate\Build\Win64\x64\UnrealEditor\Development\EnhancedInput\UnrealEditor-EnhancedInput.lib"
+/NOEXP
+/NATVIS:"../Plugins/Runtime/StateTree/Intermediate/Build/Win64/x64/UnrealEditor/Development/StateTreeModule/StateTree.natvis"
+"C:/Users/p0bis/OneDrive/Documents/GitHub/Ubisoft_Toronto_NEXT_2025-2026_3DArt/Ubisoft_3D_Art/Intermediate/Build/Win64/x64/Ubisoft_3D_ArtEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/p0bis/OneDrive/Documents/GitHub/Ubisoft_Toronto_NEXT_2025-2026_3DArt/Ubisoft_3D_Art/Intermediate/Build/Win64/x64/UnrealEditor/Development/Ubisoft_3D_Art/Module.Ubisoft_3D_Art.1.cpp.obj"
+"C:/Users/p0bis/OneDrive/Documents/GitHub/Ubisoft_Toronto_NEXT_2025-2026_3DArt/Ubisoft_3D_Art/Intermediate/Build/Win64/x64/UnrealEditor/Development/Ubisoft_3D_Art/Module.Ubisoft_3D_Art.2.cpp.obj"
+"C:/Users/p0bis/OneDrive/Documents/GitHub/Ubisoft_Toronto_NEXT_2025-2026_3DArt/Ubisoft_3D_Art/Intermediate/Build/Win64/x64/UnrealEditor/Development/Ubisoft_3D_Art/Module.Ubisoft_3D_Art.3.cpp.obj"
+"C:/Users/p0bis/OneDrive/Documents/GitHub/Ubisoft_Toronto_NEXT_2025-2026_3DArt/Ubisoft_3D_Art/Intermediate/Build/Win64/x64/UnrealEditor/Development/Ubisoft_3D_Art/Default.rc2.res"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Engine/UnrealEditor-Engine.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/AIModule/UnrealEditor-AIModule.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/UMG/UnrealEditor-UMG.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Core/UnrealEditor-Core.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/CoreUObject/UnrealEditor-CoreUObject.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/InputCore/UnrealEditor-InputCore.lib"
+"../Plugins/EnhancedInput/Intermediate/Build/Win64/x64/UnrealEditor/Development/EnhancedInput/UnrealEditor-EnhancedInput.lib"
+"../Plugins/Runtime/StateTree/Intermediate/Build/Win64/x64/UnrealEditor/Development/StateTreeModule/UnrealEditor-StateTreeModule.lib"
+"../Plugins/Runtime/GameplayStateTree/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameplayStateTreeModule/UnrealEditor-GameplayStateTreeModule.lib"
+"../Intermediate/Build/Win64/x64/UnrealEditor/Development/Slate/UnrealEditor-Slate.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -81,6 +77,6 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Binaries\Win64\UnrealEditor-Ubisoft_3D_Art.dll"
-/PDB:"C:\Users\p0bis\OneDrive\Documents\GitHub\Ubisoft_Toronto_NEXT_2025-2026_3DArt\Ubisoft_3D_Art\Binaries\Win64\UnrealEditor-Ubisoft_3D_Art.pdb"
+/OUT:"C:/Users/p0bis/OneDrive/Documents/GitHub/Ubisoft_Toronto_NEXT_2025-2026_3DArt/Ubisoft_3D_Art/Binaries/Win64/UnrealEditor-Ubisoft_3D_Art.dll"
+/PDB:"C:/Users/p0bis/OneDrive/Documents/GitHub/Ubisoft_Toronto_NEXT_2025-2026_3DArt/Ubisoft_3D_Art/Binaries/Win64/UnrealEditor-Ubisoft_3D_Art.pdb"
 /ignore:4078

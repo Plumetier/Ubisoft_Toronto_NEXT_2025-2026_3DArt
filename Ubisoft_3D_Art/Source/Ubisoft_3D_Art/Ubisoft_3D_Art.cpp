@@ -4,4 +4,5 @@
 #include "Modules/ModuleManager.h"
 
 IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, Ubisoft_3D_Art, "Ubisoft_3D_Art" );
- 
+
+DEFINE_LOG_CATEGORY(LogUbisoft_3D_Art)

@@ -1,3 +1,6 @@
-// PCH for Runtime/Slate/Public/SlateSharedPCH.h
-#include "C:/Users/p0bis/OneDrive/Documents/GitHub/Ubisoft_Toronto_NEXT_2025-2026_3DArt/Ubisoft_3D_Art/Intermediate/Build/Win64/x64/Ubisoft_3D_ArtEditor/Development/Slate/SharedDefinitions.Slate.Cpp20.h"
-#include "Runtime/Slate/Public/SlateSharedPCH.h"
+// PCH for SlateSharedPCH.h
+#include "SharedDefinitions.Slate.Cpp20.h"
+#include "SlateSharedPCH.h"
+#ifdef __ISPC_ALIGN__
+#error ispc.generated.h files are not allowed in precompiled headers (This is a build time optimization to reduce action dependencies)
+#endif
